@@ -2,7 +2,7 @@
 
 ## API V1 接口说明
 
-- 接口基准地址：`https://qc9qjl.app.cloudendpoint.cn/api/v1`
+- 接口基准地址：``
 - 服务端已开启 CORS 跨域支持
 - API V1 认证统一使用 Token 认证
 - 需要授权的 API ，必须在请求头中使用 `Authorization` 字段提供 `token` 令牌
