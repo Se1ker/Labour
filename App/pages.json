@@ -1,0 +1,471 @@
+{
+	"easycom": {
+		"^u-(.*)": "uview-ui/components/u-$1/u-$1.vue"
+	},
+	"pages": [
+		{
+			"path": "pages/login/login",
+			"style": {
+				"navigationBarTitleText": "登录",
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path": "pages/public/public",
+			"style": {
+				"navigationBarTitleText": "发布",
+				"app-plus": {
+					"titleNView": {
+						"titleAlign": "left",
+						"titleSize": "20px"
+					}
+				}
+			}
+		},
+		{
+			"path": "pages/mine/setUp/personalData",
+			"style": {
+				"navigationBarTitleText": "个人资料",
+				"app-plus": {
+					"titleNView": {
+						"titleAlign": "left",
+						"titleSize": "20px"
+					}
+				}
+			}
+		},
+		{
+			"path": "pages/mine/mine",
+			"style": {
+				"navigationBarTitleText": "我的",
+				"app-plus": {
+					"titleNView": {
+						"titleAlign": "left",
+						"titleSize": "20px"
+					}
+				}
+			}
+
+		},
+		{
+			"path": "pages/index/rankingList",
+			"style": {
+				"navigationBarTitleText": "积分排行榜",
+				"app-plus": {
+					"titleNView": {
+						"titleAlign": "left",
+						"titleSize": "20px"
+					}
+				}
+			}
+		},
+		{
+			"path": "pages/index/lostAndFound/lostAndFound",
+			"style": {
+				"navigationBarTitleText": "失物招领",
+				"enablePullDownRefresh": true,
+				"app-plus": {
+					"titleNView": {
+						"buttons": [
+							{
+								"text": "创建",
+								"type": "none",
+								"color": "#000000",
+								"fontSize": "16px",
+								"float": "right"
+							}
+						],
+						"titleAlign": "left",
+						"titleSize": "20px"
+					}
+				}
+			}
+		},
+		{
+			"path": "pages/index/voluntaryActivity",
+			"style": {
+				"navigationBarTitleText": "志愿活动",
+				"enablePullDownRefresh": true,
+				"app-plus": {
+					"titleNView": {
+						"titleAlign": "left",
+						"titleSize": "20px"
+					}
+				}
+			}
+		},
+		{
+			"path": "pages/index/createActivity",
+			"style": {
+				"navigationBarTitleText": "创建活动",
+				"app-plus": {
+					"titleNView": {
+						"titleAlign": "left",
+						"titleSize": "20px"
+					}
+				}
+			}
+		},
+		{
+			"path": "pages/index/detail",
+			"style": {
+				"navigationBarTitleText": "详情",
+				"app-plus": {
+					"titleNView": {
+						"titleAlign": "left",
+						"titleSize": "20px"
+					}
+				}
+			}
+		},
+		{
+			"path": "pages/index/recommendDetail",
+			"style": {
+				"navigationBarTitleText": "推荐详情",
+				"app-plus": {
+					"titleNView": {
+						"titleAlign": "left",
+						"titleSize": "20px"
+					}
+				}
+			}
+		},
+		{
+			"path": "pages/index/dynamic",
+			"style": {
+				"navigationBarTitleText": "动态",
+				"app-plus": {
+					"titleNView": {
+						"titleAlign": "left",
+						"titleSize": "20px"
+					}
+				}
+			}
+		},
+		{
+			"path": "pages/index/dynamicDetails",
+			"style": {
+				"navigationBarTitleText": "动态详情",
+				"app-plus": {
+					"titleNView": {
+						"titleAlign": "left",
+						"titleSize": "20px"
+					}
+				}
+			}
+		},
+		{
+			"path": "pages/index/voluntaryDetail",
+			"style": {
+				"navigationBarTitleText": "志愿活动详情",
+				"app-plus": {
+					"titleNView": {
+						"titleAlign": "left",
+						"titleSize": "20px"
+					}
+				}
+			}
+		},
+		{
+			"path": "pages/index/lostAndFound/lostAndFoundDetail",
+			"style": {
+				"navigationBarTitleText": "失物招领详情",
+				"app-plus": {
+					"titleNView": {
+						"titleAlign": "left",
+						"titleSize": "20px"
+					}
+				}
+			}
+		},
+		{
+			"path": "pages/mine/check/checker",
+			"style": {
+				"navigationBarTitleText": "检察员",
+				"app-plus": {
+					"titleNView": {
+						"titleAlign": "left",
+						"titleSize": "20px"
+					}
+				}
+			}
+		},
+		{
+			"path": "pages/mine/check/checkTask",
+			"style": {
+				"navigationBarTitleText": "检查任务",
+				"app-plus": {
+					"titleNView": {
+						"titleAlign": "left",
+						"titleSize": "20px"
+					}
+				}
+			}
+		},
+		{
+			"path": "pages/mine/check/chooseTask",
+			"style": {
+				"navigationBarTitleText": "选择任务",
+				"app-plus": {
+					"titleNView": {
+						"titleAlign": "left",
+						"titleSize": "20px"
+					}
+				}
+			}
+		},
+		{
+			"path": "pages/mine/clear/cleaner",
+			"style": {
+				"navigationBarTitleText": "打扫员",
+				"app-plus": {
+					"titleNView": {
+						"titleAlign": "left",
+						"titleSize": "20px"
+					}
+				}
+			}
+		},
+		{
+			"path": "pages/mine/clear/cleanTask",
+			"style": {
+				"navigationBarTitleText": "打扫任务",
+				"app-plus": {
+					"titleNView": {
+						"titleAlign": "left",
+						"titleSize": "20px"
+					}
+				}
+			}
+		},
+		{
+			"path": "pages/mine/setUp/setting",
+			"style": {
+				"navigationBarTitleText": "设置",
+				"app-plus": {
+					"titleNView": {
+						"titleAlign": "left",
+						"titleSize": "20px"
+					}
+				}
+			}
+		},
+		{
+			"path": "pages/public/signDesk",
+			"style": {
+				"navigationBarTitleText": "签到",
+				"app-plus": {
+					"titleNView": {
+						"titleAlign": "left",
+						"titleSize": "20px"
+					}
+				}
+			}
+		},
+		{
+			"path": "pages/login/addNember",
+			"style": {
+				"navigationBarTitleText": "注册",
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path": "pages/login/backPassword",
+			"style": {
+				"navigationBarTitleText": "找回密码",
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path": "pages/public/public",
+			"style": {
+				"navigationBarTitleText": "发布",
+				"app-plus": {
+					"titleNView": {
+						"titleSize": "20px"
+					}
+				}
+			}
+		},
+		{
+			"path": "pages/index/index",
+			"style": {
+				"navigationBarTitleText": "首页",
+				"enablePullDownRefresh": true,
+				"app-plus": {
+					"titleNView": {
+						"titleSize": "20px"
+					}
+				}
+			}
+		},
+		{
+			"path": "pages/public/volunteer",
+			"style": {
+				"navigationBarTitleText": "我的活动",
+				"app-plus": {
+					"titleNView": {
+						"titleAlign": "left",
+						"titleSize": "20px"
+					}
+				}
+			}
+		},
+		{
+			"path": "pages/public/activityDetail",
+			"style": {
+				"navigationBarTitleText": "详情",
+				"app-plus": {
+					"titleNView": {
+						"titleAlign": "left",
+						"titleSize": "20px"
+					}
+				}
+			}
+		},
+		{
+			"path": "pages/public/createActivities",
+			"style": {
+				"navigationBarTitleText": "创建活动",
+				"app-plus": {
+					"titleNView": {
+						"titleAlign": "left",
+						"titleSize": "20px"
+					}
+				}
+			}
+		},
+		{
+			"path": "pages/public/releaseCheck",
+			"style": {
+				"navigationBarTitleText": "发布",
+				"app-plus": {
+					"titleNView": {
+						"titleAlign": "left",
+						"titleSize": "20px"
+					}
+				}
+			}
+		},
+		{
+			"path": "pages/mine/myIntegral",
+			"style": {
+				"navigationBarTitleText": "我的积分",
+				"app-plus": {
+					"titleNView": {
+						"titleAlign": "left",
+						"titleSize": "20px"
+					}
+				}
+			}
+		},
+		{
+			"path": "pages/mine/myPublic",
+			"style": {
+				"navigationBarTitleText": "我的发布",
+				"app-plus": {
+					"titleNView": {
+						"titleAlign": "left",
+						"titleSize": "20px"
+					}
+				}
+			}
+		},
+		{
+			"path": "pages/mine/setUp/college/college",
+			"style": {
+				"navigationBarTitleText": "选择院系",
+				"app-plus": {
+					"titleNView": {
+						"titleAlign": "left",
+						"titleSize": "20px"
+					}
+				}
+			}
+		}
+	    ,{
+            "path" : "pages/mine/clear/taskSelect",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "任务选择",
+                "enablePullDownRefresh": false,
+				"app-plus": {
+					"titleNView": {
+						"titleAlign": "left",
+						"titleSize": "20px"
+					}
+				}
+            }
+            
+        },
+		{
+			"path": "pages/mine/setUp/aboutUS",
+			"style": {
+				"navigationBarTitleText": "关于我们",
+				"app-plus": {
+					"titleNView": {
+						"titleAlign": "left",
+						"titleSize": "20px"
+					}
+				}
+			}
+		}
+		,{
+            "path" : "pages/mine/check/signUp",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "报名",
+                "enablePullDownRefresh": false,
+				"app-plus": {
+					"titleNView": {
+						"titleAlign": "left",
+						"titleSize": "20px"
+					}
+				}
+            } 
+        },{
+		    "path" : "pages/public/activityEnd",
+		    "style" :                                                                                    
+		    {
+		        "navigationBarTitleText": "活动结项",
+		        "enablePullDownRefresh": false
+		    } 
+		}
+    ],
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "uni-app",
+		"navigationBarBackgroundColor": "#7925ff",
+		"backgroundColor": "#F8F8F8",
+		"onReachBottomDistance": 5
+	},
+	"tabBar": {
+		"color": "#1e1e1e",
+		"selectedColor": "#13227a",
+		"backgroundColor": "#fff",
+		"borderStyle": "white",
+		"fontSize": "15px",
+		"iconWidth": "26px",
+		"height": "60px",
+		"list": [
+			{
+				"text": "首页",
+				"pagePath": "pages/index/index",
+				"iconPath": "static/faxian2.png",
+				"selectedIconPath": "static/faxian.png"
+			},
+			{
+				"text": "发布",
+				"pagePath": "pages/public/public",
+				"iconPath": "static/fabu2.png",
+				"selectedIconPath": "static/fabu.png"
+			},
+			{
+				"text": "我的",
+				"pagePath": "pages/mine/mine",
+				"iconPath": "static/mine2.png",
+				"selectedIconPath": "static/mine.png"
+			}
+		]
+	}
+}

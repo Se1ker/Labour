@@ -1,0 +1,13 @@
+/* 全局样式表i */
+html,
+body,
+#app {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    background-color: rgb(244, 245, 245)
+}
+.box-card {
+    margin-top: 10px;
+    font-size: 15px;
+  }
